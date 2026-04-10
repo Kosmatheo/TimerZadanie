@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
 
@@ -13,17 +13,17 @@
         android:id="@+id/gracz1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="00:00"
         android:layout_weight="1"
-        android:textSize="90dp"
-        android:backgroundTint="#FF5A26"/>
+        android:backgroundTint="#FF5A26"
+        android:text="00:00"
+        android:textSize="90dp" />
 
     <Button
-        android:backgroundTint="#087AD3"
         android:id="@+id/gracz2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:textSize="90dp"
-        android:text="00:00" />
+        android:backgroundTint="#087AD3"
+        android:text="00:00"
+        android:textSize="90dp" />
 </LinearLayout>
