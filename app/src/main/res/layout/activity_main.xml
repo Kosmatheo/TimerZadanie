@@ -13,17 +13,17 @@
         android:id="@+id/gracz1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="00:00"
+        android:text="01:40"
         android:layout_weight="1"
         android:textSize="90dp"
         android:backgroundTint="#FF5A26"/>
 
     <Button
-        android:backgroundTint="#087AD3"
+        android:backgroundTint="#9C27B0"
         android:id="@+id/gracz2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:textSize="90dp"
-        android:text="00:00" />
+        android:text="01:40" />
 </LinearLayout>
